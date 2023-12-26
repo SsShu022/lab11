@@ -1,4 +1,4 @@
-package apps;
+package apps.Task3;
 
 import javax.swing.JFrame;
 import javax.swing.ImageIcon;

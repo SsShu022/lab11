@@ -1,4 +1,4 @@
-package apps;
+package apps.Task2;
 
 import lombok.Getter;
 import lombok.Setter;

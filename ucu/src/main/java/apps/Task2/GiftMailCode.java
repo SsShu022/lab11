@@ -1,4 +1,4 @@
-package apps;
+package apps.Task2;
 
 public class GiftMailCode implements MailCode {
 

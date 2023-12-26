@@ -1,6 +1,7 @@
-package apps;
+package apps.Task1;
 
 import lombok.experimental.SuperBuilder;
+import apps.Task2.Gender;
 import lombok.Getter;
 
 @Getter

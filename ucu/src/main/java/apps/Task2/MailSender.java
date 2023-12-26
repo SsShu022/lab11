@@ -1,4 +1,4 @@
-package apps;
+package apps.Task2;
 import com.mailjet.client.MailjetClient;
 import com.mailjet.client.ClientOptions;
 import com.mailjet.client.MailjetRequest;
