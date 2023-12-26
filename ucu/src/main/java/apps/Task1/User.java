@@ -14,7 +14,3 @@ public class User {
     private final double height;
 
 }
-
-// enum Gender {
-//     MALE, FEMALE
-// }
