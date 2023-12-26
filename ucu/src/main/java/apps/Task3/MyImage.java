@@ -1,4 +1,4 @@
-package apps.Task3;
+package apps.task3;
 
 public interface MyImage {
     void display();

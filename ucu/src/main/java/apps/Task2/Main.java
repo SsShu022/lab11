@@ -1,4 +1,4 @@
-package apps.Task2;
+package apps.task2;
 
 import com.mailjet.client.errors.MailjetException;
 
@@ -11,8 +11,8 @@ public class Main {
         Client client = new Client("John", "shuliak.pn@ucu.edu.ua", 19, Gender.MALE);
         MailInfo birthdayMail = new MailInfo(client, new BdaymailCode());
 
-        Client client2 = new Client("Mary", "shuliak.pn@ucu.edu.ua", 25, Gender.FEMALE);
-        MailInfo giftMail = new MailInfo(client2, new GiftMailCode());
+        Client clientA = new Client("Mary", "shuliak.pn@ucu.edu.ua", 25, Gender.FEMALE);
+        MailInfo giftMail = new MailInfo(clientA, new GiftMailCode());
 
         mailBox.addMailInfo(birthdayMail);
         mailBox.addMailInfo(giftMail);

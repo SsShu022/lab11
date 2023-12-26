@@ -1,13 +1,9 @@
-package apps.Task3;
-
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+package apps.task3;
 
 public class ProxyImage implements MyImage {
     private RealImage img;
     private String filename;
-    private JFrame frame;
+
 
     public ProxyImage(String filename) {
         this.filename = filename;
